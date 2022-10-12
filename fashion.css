@@ -1,0 +1,353 @@
+
+    body {
+        background: #727272;
+        position: relative;
+    }
+    
+      
+      #myVideo {
+        
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+      }
+
+.navbar img{
+    width: 5%!important;
+}
+
+ .banner a{
+    text-decoration: none!important;
+    color: brown!important;
+}
+ .man a{
+    color: brown!important;
+    text-decoration: none!important;
+}
+.woman a{
+    color: brown!important;
+    text-decoration: none!important;
+}
+
+.man{
+    background-image: url('p3.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+
+    
+
+
+.categories__text a {
+    font-size: 14px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 2%;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.categories__text h4 {
+    padding: 2%;
+    color: #111;
+    font-weight: 100!important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.woman h4::after
+{
+    content: "";
+    background: brown;
+    position: absolute;
+    width: 220px;
+    height: 3px;
+    left: 35px;
+    top: 40px;
+}
+.man h4::after
+{
+    content: "";
+    background: brown;
+    position: absolute;
+    width: 190px;
+    height: 3px;
+    left: 32px;
+    top: 40px;
+}
+.new{
+    position: relative;
+}
+.new h4::after
+{
+    content: "";
+    background: brown;
+    position: absolute;
+    width: 190px;
+    height: 3px;
+    left: 32px;
+    top: 40px;
+}
+.product{
+    padding: 2%;
+}
+.product h4::after
+{
+    content: "";
+    background: brown;
+    position: absolute;
+    width: 140px;
+    height: 3px;
+    left: 32px;
+    top: 40px;
+}
+p {
+    font-size: 14px;
+    font-family: "Montserrat",sans-serif;
+    color: #666;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+    padding: 2%;
+}
+.woman{
+    background-image: url('p2.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+   
+}
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border-bottom: brown 2px solid;
+}
+
+
+.contact{
+    background-image: url('contact.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fa-arrow-right {
+    color: brown;
+}
+.rating i{
+    font-size: 10px;
+    color: #e3c01c;
+    margin-right: -4px;
+    
+}
+
+
+.market div{
+    transition-delay:0.5s;
+    transition-duration:1s;
+   
+    
+}
+.inf{
+    text-align: center;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.market i:hover{
+    
+      color: brown;
+}
+
+@media(max-width:920px) {
+     
+        body{
+            overflow-x: hidden;
+        }
+            .about {
+                height: 1360px!important;
+            }
+            .navbar img{
+                width: 30%!important;
+            }
+            .banner{
+                background-position: center;
+            }
+            iframe{
+                margin-left:0px!important;
+                height: min-content;
+            }
+            .blog__item__text {
+                padding:0px!important;
+                margin-right: 30px;
+                background: #ffffff;
+                margin-top: 180px!important;
+            }
+  }
+.banner {
+    background-image: url('banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    
+}
+
+
+
+
+
+h5{
+    font-weight:bolder!important;
+    color: rgb(108, 14, 14);
+    font-family: 'Courier New', Courier, monospace;
+}
+.about{
+    background-image: url('t3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    color: white;
+    
+    
+}
+.about h1{
+    border-bottom: brown 2px solid;
+    color: #888;
+    font-weight: 600;
+}
+.about p{
+    padding: 2%;
+    text-align: left;
+    font-size: large;
+    font-weight: 1000;
+    color: #888;
+}
+.media img{
+    width: 20%;
+}
+
+.site-footer {
+   
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    width: 100%;
+    border-top:gray 1px solid ;
+}
+li{
+    list-style: none;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.7;
+}
+
+.site-footer .social{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.inst i{
+    color: brown;
+    font-size: xx-large;
+}
+
+
+i{
+    color: gray;
+font-size: 30px;
+}
+iframe{
+    margin-left:240px;
+   
+    
+}
+.blog__item__text {
+    padding: 25px 20px 0 0;
+    margin-right: 30px;
+    background: #ffffff;
+    margin-top: 190px;
+}
+.text {
+    padding: 6px 12px 0px 22px;
+    margin-right: 91px;
+    background: #ffffff;
+    margin-top: 515px;
+}
+
+
+.ext h6 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.blog__item__text h6 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+.blog__item__text h6 a {
+    color:brown;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration: none;
+
+}
+.text h6 a {
+    color:brown;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration: none;
+
+}
+.text ul li span:after {
+    position: absolute;
+    right: -17px;
+    top: 0px;
+    content: "|";
+}
+.blog__item__text ul li span:after {
+    position: absolute;
+    right: -17px;
+    top: 0px;
+    content: "|";
+}
+.blog__item__text ul li {
+    font-size: 12px;
+    color: #888888;
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+    position: relative;
+}
+.text ul li {
+    font-size: 12px;
+    color: #888888;
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+    position: relative;
+}
